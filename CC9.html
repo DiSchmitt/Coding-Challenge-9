@@ -9,17 +9,24 @@
     <!--Add another <script> tag to link to your external JavaScript file where you will implement your D3.js code.-->
     <script src="CC9.js"></script>
     <title>Coding-Challenge-9</title>
-    <!--In the head section of your HTML file, include a <style> tag.-->
+    <!--Task 2: In the head section of your HTML file, include a <style> tag.-->
     <style>
-        /* Define styles for the div elements to represent data points, specifying height, width, and initial background color. */
+      /* Define styles for the div elements to represent data points, specifying height, width, and initial background color. */
       .datapoint {
         height: 20px;
         width: 95px;
-        background-color: #e21515;
+        background-color: paleturquoise;
+        margin: 5px;
+        text-align: center;
+        line-height: 20px;
+        border: 1px solid black;
       }
     </style>
   </head>
   <body onload="main()">
-    <div class="datapoint">Testing 1, 2, 3,</div>
+    <div id="datapointcontainer">
+      Mouseover and Mouseout test.
+      <br />
+    </div>
   </body>
 </html>
